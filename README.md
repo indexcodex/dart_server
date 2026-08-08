@@ -322,14 +322,43 @@ Core.service.sql
 > SQL service is located at: lib/_core/service/mysql/mysql.dart
 
 ```
-Core.util.log.devPrint  // print logs in non prod environment
+Core.engine.upload
+..basic         // a basic upload engine
+..interactive   // a callback driven upload engine
+```
+> Upload engine is located at: lib/_core/engine/engine_facade.dart
+
+```
+Core.util.file.moveFileToDirectory // move file to target destination
+```
+> File util is located at: lib/_core/util/file/file_util_facade.dart
+
+```
+Core.util.log
+..devPrint      // print logs in non prod environment
+..devPrintList  // print log list in non prod environment
 ```
 > Log util is located at: lib/_core/util/logger/logger.dart
+
+```
+Core.util.mime
+..detect        // detects the file type
+..getExtension  // return the file extension
+```
+> Mime util is located at: lib/_core/util/mime/mime_detector.dart
 
 ```
 Core.util.network.getIpAddress  // returns the IP address of the client
 ```
 > Network util is located at: lib/_core/util/network/network.dart
+
+```
+Core.util.request
+..isMultipartFormdata   // detects if the request is multipart form-data
+..isTextPlain           // detects if the request is plain text
+..isApplicationJson     // detects if the request is json
+```
+> Request util is located at: lib/_core/util/request/request_util.dart
 
 ```
 Core.util.response
