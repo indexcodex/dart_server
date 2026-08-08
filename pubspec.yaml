@@ -1,0 +1,26 @@
+name: shelf_server
+description: A basic dart server powered by shelf_plus package.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.11.5
+
+# Add regular dependencies here.
+dependencies:
+  path: ^1.9.1
+  # 3rd party packages
+  uuid: ^4.5.3
+  http: ^1.6.0
+  redis: ^4.1.0
+  mailer: ^7.1.0
+  mysql1: ^0.20.0
+  shelf_plus: ^1.11.0
+  pointycastle: ^4.0.0
+  shelf_multipart: ^2.0.1
+  dart_jsonwebtoken: ^3.4.1
+  shelf_cors_headers: ^0.1.5
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6

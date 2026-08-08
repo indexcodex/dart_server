@@ -1,0 +1,18 @@
+include: package:lints/recommended.yaml
+
+linter:
+  rules:
+    - sort_constructors_first
+    - avoid_single_cascade_in_expression_statements
+    - cascade_invocations
+    - avoid_void_async
+    - prefer_const_constructors
+    - prefer_const_constructors_in_immutables
+    - prefer_const_declarations
+    - prefer_const_literals_to_create_immutables
+    - prefer_constructors_over_static_methods
+    - avoid_print
+    - type_annotate_public_apis
+    - avoid_redundant_argument_values
+    - always_put_required_named_parameters_first
+    - unawaited_futures

@@ -1,0 +1,14 @@
+# https://dart.dev/guides/libraries/private-files
+# Created by `dart pub`
+.dart_tool/
+
+# redis snapshot generated upon shutdown
+dump.rdb
+
+# ignore generated files from shelf_cli
+export/
+bin/
+
+# ignore uploaded files
+/public/user
+/tmp
